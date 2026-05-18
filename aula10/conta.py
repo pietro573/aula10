@@ -6,6 +6,15 @@ class conta:
         self.__numero = numero
         self.__saldo = 0
 
+        @property
+        def titular(self)
+        return(self.__titular)
+
+
+        @titular.setter
+        def titular(self, novo_nome)
+        self.__titular = novo_nome
+
     def extrato(self):
         print(f'o saldo do { self.__titular} é {self.__saldo}')
 
@@ -19,4 +28,5 @@ class conta:
             else:
                 print('erro ao efetuar o saque')
                 def transferir(self, conta_destino, valor):
-            
+            self.__saque(valor)
+            conta_destino.destino(valor)
