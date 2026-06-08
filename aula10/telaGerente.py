@@ -13,8 +13,8 @@ def login():
         label_resposta.configure(text="Falha no login", fg="red")
 
 def cadastrar():
-    conta = conta(input_titular.get(), input_agência.get(), input_CPF.get)
-    print(conta,extrato())
+    conta = Conta(input_titular.get(), input_agência.get(), input_CPF.get())
+    print(conta.extrato())
     print(conta.numero)
 
     with open ("clientes.json", "r") as clientes_arq:
@@ -27,7 +27,7 @@ def cadastrar():
         "cpf": conta.cpf,
         "saldo": conta.saldo,
         "senha": conta.senha,
-        "chavepix": conta.chavepix.senha
+        "chavepix": conta.chavepix
     })
 
     with open ("clientes.json", "w") as clientes_escrita:
