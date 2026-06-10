@@ -1,0 +1,29 @@
+[
+    {
+        "titular": "admin",
+        "agencia": "1234",
+        "numero": "7994-1",
+        "cpf": "5678",
+        "saldo": 0,
+        "senha": 174020,
+        "chavepix": []
+    },
+    {
+        "titular": "richard pro marx",
+        "agencia": "12345",
+        "numero": "5214-8",
+        "cpf": "6789",
+        "saldo": 0,
+        "senha": 841042,
+        "chavepix": []
+    },
+    {
+        "titular": "ruivinho gamer",
+        "agencia": "1235",
+        "numero": "7921-5",
+        "cpf": "6709",
+        "saldo": 0,
+        "senha": 851742,
+        "chavepix": []
+    }
+]
